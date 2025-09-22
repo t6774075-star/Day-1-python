@@ -1,0 +1,50 @@
+Write a program to execute the statement of given input.
+
+Input Format
+
+input consist of string
+Constraints
+
+No Constraints
+
+Output Format
+
+executes the given string input
+Sample Input 0
+
+welcome to c programming language
+Sample Output 0
+
+welcome to c programming language
+Contest ends in 8 days
+Submissions: 45
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+2
+str=input()
+3
+print(str)
+Line: 1 Col: 1
+Run Code Submit CodeUpload Code as File 
+Test against custom input
+Testcase 0
+Congratulations, you passed the sample test case.
+
+Click the Submit Code button to run your code against all the test cases.
+
+Input (stdin)
+
+welcome to c programming language
+Your Output (stdout)
+
+welcome to c programming language
+Expected Output
+
+welcome to c programming language
