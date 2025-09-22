@@ -1,0 +1,85 @@
+Write a program to execute the datas with the statement.
+
+Input Format
+
+first input corresponds to integer
+second input corresponds to float
+third input corresponds to char
+fourth input correspond to string
+fifth input correspond to String
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the user inputs with the statemets
+Sample Input 0
+
+23
+45.56
+A
+hello
+hello world
+Sample Output 0
+
+Integer is 23
+Float is 45.56
+Character is A
+Strings are hello and hello world
+Contest ends in 8 days
+Submissions: 44
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+# Enter your code here. Read input from STDIN. Print output to 
+2
+a=int(input())
+3
+print("Integer is",a)
+4
+b=float(input())
+5
+print("Float is",b)
+6
+c=(input())
+7
+print("Character is",c)
+8
+d=str(input())
+9
+e=str(input())
+10
+print(f"Strings are {d} and {e}")
+Line: 1 Col: 1
+Run Code Submit CodeUpload Code as File 
+Test against custom input
+Testcase 0
+Congratulations, you passed the sample test case.
+
+Click the Submit Code button to run your code against all the test cases.
+
+Input (stdin)
+
+23
+45.56
+A
+hello
+hello world
+Your Output (stdout)
+
+Integer is 23
+Float is 45.56
+Character is A
+Strings are hello and hello world
+Expected Output
+
+Integer is 23
+Float is 45.56
+Character is A
+Strings are hello and hello world
