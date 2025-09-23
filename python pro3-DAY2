@@ -1,0 +1,113 @@
+Veena wants to learn shape calculation for Square,Rectangle,Circle,Triangle to implements in programming.Could you please help her to how to write the program. - Square formula:a*a - Rectangle formula:l*b - Circle formula:πr^2 - Triangle formula:1/2*(b*h)
+
+Input Format
+
+First input consist of integer for side.
+Second and third input consists of integer for Length and breadth.
+forth input consist of radius.
+Fifth and Sixth input consist of Base and height.
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the area of shape calculation values.
+Sample Input 0
+
+2
+3
+2
+3
+6
+5
+Sample Output 0
+
+Area of Square=4
+Area of Rectangle=6
+Area of Circle=28.27
+Area of Triangle=15
+Sample Input 1
+
+2
+3
+4
+5
+6
+7
+Sample Output 1
+
+Area of Square=4
+Area of Rectangle=12
+Area of Circle=78.53
+Area of Triangle=21
+Contest ends in 7 days
+Submissions: 53
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+2
+import math
+3
+a=int(input())
+4
+l,b=int(input()),int(input())
+5
+r=int(input())
+6
+c,h=int(input()),int(input())
+7
+sq=a*a
+8
+print(f"Area of Square={sq}")
+9
+Rec=l*b
+10
+print(f"Area of Rectangle={Rec}")
+11
+ci=math.pi*r*r
+12
+print(f"Area of Circle={int(ci*100)/100}")
+13
+ti=1/2*(c*h)
+14
+print(f"Area of Triangle={int(ti)}")
+15
+​
+16
+​
+Line: 1 Col: 1
+Run Code Submit CodeUpload Code as File 
+Test against custom input
+Testcase 0
+Testcase 1
+Congratulations, you passed the sample test case.
+
+Click the Submit Code button to run your code against all the test cases.
+
+Input (stdin)
+
+2
+3
+2
+3
+6
+5
+Your Output (stdout)
+
+Area of Square=4
+Area of Rectangle=6
+Area of Circle=28.27
+Area of Triangle=15
+Expected Output
+
+Area of Square=4
+Area of Rectangle=6
+Area of Circle=28.27
+Area of Triangle=15
