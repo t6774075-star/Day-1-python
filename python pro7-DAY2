@@ -1,0 +1,95 @@
+Alice wanted to start a business and she was looking for a venture capitalist. Through her friend Bob, she met the owner of a construction company who is interested to invest in an emerging business. Looking at the business proposal, the owner was very much impressed with Alice's work. So he decided to invest in Alice's business and hence gave a green signal to go ahead with the project.
+
+Alice bought Rs.X for a period of Y years from the owner at R% interest per annum. Find the rate of interest and the total amount to be given by Alice to the owner. The owner impressed by proper repayment of the financed amount decides to give a special offer of 2% discount on the total interest at the end of the settlement. Find the amount given back by Alice and also find the total amount. (Note: All rupee values should be in two decimal points).
+
+Input Format
+
+Input consists of 3 integers. - The first integer corresponds to the principal amount borrowed by Alice. - The second integer corresponds to the rate of interest - The third integer corresponds to the number of years.
+
+Constraints
+
+No Constraints
+
+Output Format
+
+The output consists of 4 floating point values. - The first value corresponds to the interest. - The second corresponds to the amount. - The third value corresponds to the discount. - The last value corresponds to the final settlement. - All floating point values are to be rounded off to two decimal places
+
+Sample Input 0
+
+100
+1
+10
+Sample Output 0
+
+10.00
+110.00
+0.20
+109.80
+Sample Input 1
+
+7000
+3
+5
+Sample Output 1
+
+1050.00
+8050.00
+21.00
+8029.00
+Contest ends in 7 days
+Submissions: 30
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+principal = int(input())
+2
+rate = int(input())
+3
+years = int(input())
+4
+interest = (principal * rate * years) / 100
+5
+amount = principal + interest
+6
+discount = (interest * 2) / 100
+7
+final_settlement = amount - discount
+8
+print(f"{interest:.2f}")
+9
+print(f"{amount:.2f}")
+10
+print(f"{discount:.2f}")
+11
+print(f"{final_settlement:.2f}")
+Line: 1 Col: 1
+Run Code Submit CodeUpload Code as File 
+Test against custom input
+Testcase 0
+Testcase 1
+Congratulations, you passed the sample test case.
+
+Click the Submit Code button to run your code against all the test cases.
+
+Input (stdin)
+
+100
+1
+10
+Your Output (stdout)
+
+10.00
+110.00
+0.20
+109.80
+Expected Output
+
+10.00
+110.00
+0.20
+109.80
