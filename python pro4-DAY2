@@ -1,0 +1,96 @@
+Veena wants to learn shape calculation for Square,Rectangle,Circle,Triangle to implements in programming.Could you please help her to how to write the program. Notes: - Square formula:4a - Rectangle formula:2(l+w) - Circle formula:2πr - Triangle formula:side+base+side
+
+Input Format
+
+First input consist of integer for side.
+Second and third input consists of integer for Length and Width.
+forth input consist of radius.
+Fifth,Sixth and Seventh input consist of Base1,side and Base2 .
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the area of shape calculation values.
+Sample Input 0
+
+9
+8
+7
+6
+5
+4
+3
+Sample Output 0
+
+Perimeter of Square:36
+Perimeter of Rectangle:30
+Perimeter of Circle:37.69
+Perimeter of Triangle:12
+Contest ends in 7 days
+Submissions: 41
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+2
+import math
+3
+a=int(input())
+4
+sq=4*a
+5
+print(f"Perimeter of Square:{sq}")
+6
+l,w=int(input()) , int(input())
+7
+Rec=2*(l+w)
+8
+print(f"Perimeter of Rectangle:{Rec}")
+9
+r=float(input())
+10
+cir=2*math.pi*r
+11
+print(f"Perimeter of Circle:{int(cir*100)/100:.2f}")
+12
+B1,A,B2=int(input()) , int(input()) , int(input())
+13
+tri=B1+A+B2
+14
+print(f"Perimeter of Triangle:{tri}")
+Line: 1 Col: 1
+Run Code Submit CodeUpload Code as File 
+Test against custom input
+Testcase 0
+Congratulations, you passed the sample test case.
+
+Click the Submit Code button to run your code against all the test cases.
+
+Input (stdin)
+
+9
+8
+7
+6
+5
+4
+3
+Your Output (stdout)
+
+Perimeter of Square:36
+Perimeter of Rectangle:30
+Perimeter of Circle:37.69
+Perimeter of Triangle:12
+Expected Output
+
+Perimeter of Square:36
+Perimeter of Rectangle:30
+Perimeter of Circle:37.69
+Perimeter of Triangle:12
